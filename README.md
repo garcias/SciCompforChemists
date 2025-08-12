@@ -1,13 +1,13 @@
 # Scientific Computing for Chemists with Python
 
 > [!NOTE]
-> This version was customized from the upstream repository [weisscharlesj/SciCompForChemists](https://github.com/weisscharlesj/SciCompforChemists) following the procedure below ("Interested in Using This Book for Your Course?"). It may not contain the same content as that repository, or be up-to-date with it.
+> This version was customized from the upstream repository [weisscharlesj/SciCompForChemists](https://github.com/weisscharlesj/SciCompforChemists) following the procedure below ("Interested in Using This Book for Your Course?"). Its content may differ from the original and not be up-to-date with it. 
 
 ### An Introduction to Programming in Python with Chemical Applications
 
 The following is the textbook used for the Scientific Computing Chemists course intended to teach chemists and chemistry students basic computer programming in Python and Jupyter Notebooks and advanced tools for the processing, visualization, and analysis of digital data. 
 
-## [Read Scientific Computing for Chemists with Python (Jupyter Book)](https://weisscharlesj.github.io/SciCompforChemists/)
+## [Read Scientific Computing for Chemists with Python (Jupyter Book)](https://garcias.github.io/SciCompforChemists/)
 
 A chapter outline is provided below. The book starts with a streamlined introduction to Python for chemists followed by introducing powerful computing tools and numerous applications to chemistry. This book assumes that the student or reader has no prior programming experience and has at least one year of undergraduate chemistry background and ideally some very basic spectroscopy/spectrometry (i.e., NMR, IR, UV-vis, and GC/MS) background. All software used (e.g., Python, NumPy, SciPy, etc...) is free and open source software and runs on macOS, Windows, and Linux.
 
@@ -44,10 +44,15 @@ Answer keys to exercises are available to **instructors** upon request by [email
 
 ## Citing this Book and Curriculum
 
+> [!WARNING]
+> The works below refer to the upstream version of this book [weisscharlesj/SciCompForChemists](https://github.com/weisscharlesj/SciCompforChemists).
+
 A Creative Commons Textbook for Teaching Scientific Computing to Chemistry Students with Python and Jupyter Notebooks *J. Chem. Educ.* **2021,** 98, 489-494 [DOI: 10.1021/acs.jchemed.0c01071](https://doi.org/10.1021/acs.jchemed.0c01071)
 
 Scientific Computing for Chemists: An Undergraduate Course in Simulations, Data Processing, and Visualization *J. Chem. Educ.* **2017,** 94, 592-597 [DOI: 10.1021/acs.jchemed.7b00078](http://dx.doi.org/10.1021/acs.jchemed.7b00078)  
 
 Introduction to Stochastic Simulations for Chemical and Physical Processes: Principles and Applications *J. Chem. Educ.* **2017,** 94, 1904-1910 [DOI: 10.1021/acs.jchemed.7b00395](http://dx.doi.org/10.1021/acs.jchemed.7b00395)
 
+## Deployment notes on garcias/SciCompforChemists for 2025-08-12
 
+Using GitHub Actions. See `_config.yml` for details. Each notebook requires a custom kernelspec name 'scicompchem-env', which I don't have. Since the cached notebook outputs in the repo are okay for my purposes, no need to execute notebooks on build, so set `execute_notebooks: 'off'` and `allow_errors: true`.
