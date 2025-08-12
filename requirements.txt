@@ -1,0 +1,5 @@
+jupyter-book
+# sphinx-book-theme
+# pandas
+# numpy
+# matplotlib
