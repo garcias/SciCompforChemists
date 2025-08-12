@@ -4,6 +4,8 @@
 
 #### An Introduction to Programming in Python with Chemical Applications
 
+*by [Charles J. Weiss](https://orcid.org/0000-0003-4102-7683)*
+
 *Scientific computing* utilizes computers to aid in scientific tasks such as data processing and digital simulations among others. The well-developed field of computational chemistry is part of scientific computing and focuses on utilizing computing to simulate chemical phenomena and calculate properties. However, there is less focus in the field of chemistry on the data processing side of computing, so this book strives to fill this void by introducing the reader to tools and methods for processing, visualizing, and analyzing chemical data. The tools employed in this book are the powerful and popular combination of Jupyter notebooks and the Python programming language. No background beyond first-year college chemistry and occasionally some very basic spectroscopy (for advanced chapters) is assumed for most of this book. This book starts with a brief primer on Jupyter notebooks in chapter 0 and computer programming with Python in chapters 1 and 2. If you already have background in these tools, feel free to skip ahead. The rest of the book dives into applications of Python to solving chemical problems. Python and Jupyter were chosen for a variety of reasons including that they are:
 
 - Relatively easy to use and learn
@@ -109,3 +111,8 @@ This book took a substantial time to write along with the time and effort in dev
 - Ryan Schulte for reporting typos
 - Robert Belford for reports typos
 - Filippo Muzzini for reporting a missing data file in chapter 6
+
+
+## Attribution
+
+The book is copyright © 2017-2025 Charles J. Weiss and is released under under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). All files with or associated with the book are also copyright and released under the CC BY-NC-SA 4.0 license unless otherwise noted (see README.txt files for more information).
