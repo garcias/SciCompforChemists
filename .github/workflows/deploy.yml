@@ -1,0 +1,39 @@
+name: jupyterbook
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      # Check out as $GITHUB_WORKSPACE
+      - uses: actions/checkout@v4
+
+      - name: setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: install JupyterBook dependencies
+        run: pip install -r requirements.txt
+
+      - name: build
+        run: jupyter-book build .
+
+      - name: upload html
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_build/html"
+
+      - name: deploy to gh-pages
+        id: deployment
+        uses: actions/deploy-pages@v4
