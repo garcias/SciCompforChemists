@@ -1,7 +1,9 @@
 # Scientific Computing for Chemists with Python
 
-### An Introduction to Programming in Python with Chemical Applications
+> [!NOTE]
+> This version was customized from the upstream repository [weisscharlesj/SciCompForChemists](https://github.com/weisscharlesj/SciCompforChemists) following the procedure below ("Interested in Using This Book for Your Course?"). It may not contain the same content as that repository, or be up-to-date with it.
 
+### An Introduction to Programming in Python with Chemical Applications
 
 The following is the textbook used for the Scientific Computing Chemists course intended to teach chemists and chemistry students basic computer programming in Python and Jupyter Notebooks and advanced tools for the processing, visualization, and analysis of digital data. 
 
@@ -39,14 +41,6 @@ Answer keys to exercises are available to **instructors** upon request by [email
 * Appendix 2: Visualizing Atomic Orbitals
 * Appendix 3: Uncertainty Propagation
 * Appendix 4: Regular Expressions
-
-## Interested in Using This Book for Your Course?
-
-First, I'd love to hear how people are using this book. Second, this book may receive updates with additional content, clarifications, and corrections, so if you want a static copy of the book to use during the academic term, below are multiple options.
-
-1. (Simpler) Download PDF copies of the chapters to share with your student - at the top right of each chapter page, click the download button and select the PDF option.
-
-2. Fork this repository to your GitHub page and have your students use your copy - create a GitHub account, fork this repository, build the book using [Jupyter Book](https://jupyterbook.org/), and have you students use your copy on your GitHub page. You can update your fork of this repository at any time to received any updates, and unlike a PDF copy, this approach makes it easier for students to copy-and-paste code from the chapters. The approach does require the user be comfortable using git and GitHub.
 
 ## Citing this Book and Curriculum
 
